@@ -7,3 +7,17 @@ html {
 ::-webkit-scrollbar {
     display: none;
 }
+
+body {
+    transition: all 1s ease;
+    position: relative;
+}
+
+#container {
+    height: 1024px;
+    max-height: 100vh;
+    max-width: 768px;
+    overflow: hidden!important;
+
+    background-color: aquamarine;
+}

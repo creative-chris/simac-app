@@ -16,11 +16,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
 
     <!-- Site title & icon -->
-    <title>Enabling Technologies</title>
+    <title>Simac IT NL</title>
     <link rel="icon" href="Logo/makam-logo_black-icon.svg">
 
     <!-- Javascript section -->
     <script src="js/jquery-3.7.1.min.js"></script> 
     <script src="animation.js" defer></script>
     <script src="js/error.js" defer></script>
+    <script type="module" src="js/firebase-login.js" defer></script>
 </head>

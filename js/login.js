@@ -20,23 +20,23 @@ const auth = getAuth(app);
 const submit = document.getElementById('submit');
 submit.addEventListener("click", function (event) {
   event.preventDefault()
-  alert(6)
+  
+  window.location.href = "loggedin.php";
 
-  // login inputs
-  const email = document.getElementById('email').value;
-  const password = document.getElementById('password').value;
+  // // login inputs
+  // const email = document.getElementById('email').value;
+  // const password = document.getElementById('password').value;
 
-  signInWithEmailAndPassword(auth, email, password)
-  .then((userCredential) => {
-    // Signed in 
-    const user = userCredential.user;
-    alert("Welcome " + email)
-    window.location.href = "loggedin.php";
-    // ...
-  })
-  .catch((error) => {
-    const errorCode = error.code;
-    const errorMessage = error.message;
-  });
+  // signInWithEmailAndPassword(auth, email, password)
+  // .then((userCredential) => {
+  //   // Signed in 
+  //   const user = userCredential.user;
+  //   alert("Welcome " + email)
+  //   // ...
+  // })
+  // .catch((error) => {
+  //   const errorCode = error.code;
+  //   const errorMessage = error.message;
+  // });
 
 })

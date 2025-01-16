@@ -24,5 +24,5 @@
     <script src="js/jquery-3.7.1.min.js"></script> 
     <script src="animation.js" defer></script>
     <script src="js/error.js" defer></script>
-    <script type="module" src="js/firebase-login.js" defer></script>
+    <script type="module" src="js/login.js" defer></script>
 </head>

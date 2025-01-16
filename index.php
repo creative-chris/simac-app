@@ -10,9 +10,7 @@
     <div id="container">
         <header></header>
         <main>
-            <?php include("header.php"); ?>
-            <?php include("loggedin.php"); ?>
-            <?php include("nav.php"); ?>
+            <?php include("main.php"); ?>
         </main>
         <footer></footer>
     </div>

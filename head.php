@@ -7,6 +7,9 @@
     <link href="responsive.css" type="text/css" rel="stylesheet" media="screen"/>
     <link href="intro.css" type="text/css" rel="stylesheet" media="screen"/>
     <link href="login.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="main.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="header.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="nav.css" type="text/css" rel="stylesheet" media="screen"/>
 
     <!-- Manifest JSON for PWA -->
     <!-- <link rel="manifest" href="manifest.json"/> -->

@@ -3,9 +3,8 @@
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0" />
     
     <!-- CSS section -->
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="style.css" type="text/css" rel="stylesheet" media="screen"/>
     <link href="responsive.css" type="text/css" rel="stylesheet" media="screen"/>
-    <link href="intro.css" type="text/css" rel="stylesheet" media="screen"/>
     <link href="login.css" type="text/css" rel="stylesheet" media="screen"/>
     <link href="main.css" type="text/css" rel="stylesheet" media="screen"/>
     <link href="header.css" type="text/css" rel="stylesheet" media="screen"/>
@@ -27,5 +26,5 @@
     <script src="js/jquery-3.7.1.min.js"></script> 
     <script src="animation.js" defer></script>
     <script src="js/error.js" defer></script>
-    <script type="module" src="js/login.js" defer></script>
+    <!-- <script type="module" src="js/login.js" defer></script> -->
 </head>

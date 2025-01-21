@@ -17,29 +17,18 @@
     padding-bottom: 30px;
 }
 
-#login form {
+#login #login-comp  {
     position: relative;
     display: block;
     text-align: center;
+    padding-top: calc(20%);
+    padding-bottom: 30px;
 
-    width: 50%;
-    height: 50%;
-    background: white;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.080);
+    left: 50%;
+    right: 50%!important;
 }
 
-#login label, #login button {
-    position: relative;
-    margin-top: 55px;
-}
-
-#login label {
+#login .login-comp {
     margin-top: 50%;
     padding-top: 10px;
-}
-#login button {
-    color: white;
-    background-color: #A80227;
-    padding: 10px 30px 10px 30px;
-    border-radius: 20px;
 }

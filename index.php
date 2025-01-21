@@ -8,11 +8,15 @@
         // }
     </script>
     <div id="container">
-        <header></header>
+        <header>
+            <?php include("header.php"); ?>
+        </header>
         <main>
             <?php include("main.php"); ?>
         </main>
-        <footer></footer>
+        <footer>
+            <?php include("nav.php"); ?>
+        </footer>
     </div>
 </body>
 </html>

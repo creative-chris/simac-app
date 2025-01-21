@@ -11,13 +11,17 @@ html {
 body {
     transition: all 1s ease;
     position: relative;
+
+    height: 1024px;
+    max-height: 1024px;
+    min-height: 100vh;
+    max-width: 768px;
+    width: 100%;
+    overflow: hidden!important;
 }
 
 #container {
-    height: 1024px;
-    max-height: 100vh;
-    max-width: 768px;
-    overflow: hidden!important;
-
-    /* background-color: aquamarine; */
+    width: 100%;
+    height: 100%;
+    padding: 15px;
 }

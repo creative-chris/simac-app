@@ -17,18 +17,11 @@
     padding-bottom: 30px;
 }
 
-#login #login-comp  {
+#login #comp-login {
     position: relative;
     display: block;
-    text-align: center;
-    padding-top: calc(20%);
-    padding-bottom: 30px;
 
     left: 50%;
-    right: 50%!important;
-}
-
-#login .login-comp {
-    margin-top: 50%;
-    padding-top: 10px;
+    right: 50%;
+    transform: translate(-50%, 0%);
 }

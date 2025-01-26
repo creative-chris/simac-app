@@ -18,6 +18,7 @@ body {
     max-width: 768px;
     width: 100%;
     overflow: hidden!important;
+    font-family: Montserrat;
 }
 
 #container {

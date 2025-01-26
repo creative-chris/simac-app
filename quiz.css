@@ -1,0 +1,34 @@
+#main .inner-page {
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/components/quiz-components/background.png);
+    background-position: center top;
+    background-size: cover;
+}
+
+#main .inner-page ul {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: block;
+    top: 30px;
+
+    list-style: none;
+}
+
+#main .inner-page ul li {
+    position: relative;
+}
+
+#main .inner-page ul li h3 {
+    color: white;
+}
+
+#main .inner-page ul .buttons {
+    top: 30px;
+}
+
+#main .inner-page .true-button:hover, #main .inner-page .false-button:hover {
+    border: solid #A80227 5px;
+    border-radius: 50%;
+}

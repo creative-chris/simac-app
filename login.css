@@ -6,6 +6,7 @@
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
+    text-align: center;
 }
 
 #login .logo {
@@ -20,8 +21,4 @@
 #login #comp-login {
     position: relative;
     display: block;
-
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, 0%);
 }

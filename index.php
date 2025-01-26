@@ -8,15 +8,15 @@
         // }
     </script>
     <div id="container">
-        <header>
-            <?php include("header.php"); ?>
-        </header>
+        <!-- <header>
+            <?php /* include("header.php"); */ ?>
+        </header> -->
         <main>
             <?php include("main.php"); ?>
         </main>
-        <footer>
-            <?php include("nav.php"); ?>
-        </footer>
+        <!-- <footer>
+            <?php /* include("nav.php"); */ ?>
+        </footer> -->
     </div>
 </body>
 </html>

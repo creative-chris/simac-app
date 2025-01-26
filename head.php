@@ -9,6 +9,8 @@
     <link href="main.css" type="text/css" rel="stylesheet" media="screen"/>
     <link href="header.css" type="text/css" rel="stylesheet" media="screen"/>
     <link href="nav.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="home.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="quiz.css" type="text/css" rel="stylesheet" media="screen"/>
 
     <!-- Manifest JSON for PWA -->
     <!-- <link rel="manifest" href="manifest.json"/> -->
@@ -20,7 +22,7 @@
 
     <!-- Site title & icon -->
     <title>Simac IT NL</title>
-    <link rel="icon" href="Logo/makam-logo_black-icon.svg">
+    <link rel="icon" href="icons/simac.svg">
 
     <!-- Javascript section -->
     <script src="js/jquery-3.7.1.min.js"></script> 
